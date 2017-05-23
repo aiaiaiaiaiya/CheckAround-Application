@@ -32,11 +32,6 @@ public class checkinController {
 		return userRepository.findAll();
 	}
 	
-	@RequestMapping(value = "/getUser",method = RequestMethod.GET)
-	public List<Users> userlist(){
-		return userRepository.findAll();
-	}
-	
 	@RequestMapping(value = "user/{page}/checkin",method = RequestMethod.POST)
 	public List<Users> replies(@PathVariable("page") int page,@RequestBody Checkins checkin){
 		
