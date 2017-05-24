@@ -1,7 +1,0 @@
-com/example/checkaround/model/Checkins.class
-com/example/checkaround/repository/UserRepository.class
-com/example/checkaround/repository/CheckinRepository.class
-com/example/checkaround/controller/checkinController.class
-com/example/checkaround/model/Users.class
-com/example/checkaround/service/LocationService.class
-com/example/checkaround/CheckaroundApplication.class
