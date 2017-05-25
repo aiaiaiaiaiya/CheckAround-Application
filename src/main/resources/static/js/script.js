@@ -62,6 +62,5 @@ function checkin(){
 }
 
 function render(){
-  alert("Checkin success")
   console.log("Success");
 }
