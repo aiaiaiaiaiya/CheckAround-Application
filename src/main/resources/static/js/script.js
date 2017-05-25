@@ -21,11 +21,6 @@ function showlocations(){
       result += "</select>";
       document.getElementById("location").innerHTML = result;
 
-
-      // $("#sel").change(function(){
-      //   var location = $(this).val();
-      //   checkin(location);
-      // });
     },
 
     dataType : 'json',
@@ -37,11 +32,6 @@ function showlocations(){
 function checkin(){
 
   var location =  $("#sel").val();
-
-  // $("#sel").change(function(){
-  //   var location = $(this).val();
-  //   checkin(location);
-  // });
 
   console.log("checkin");
   console.log(location);
